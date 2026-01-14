@@ -13,10 +13,10 @@
 
 /* 강아지 */
 .dog-ani{
-    font-size:80px;
-    color:#ffffff;
+    font-size:-1px;
+    color:#7295ed;
     display:inline-block;
-    animation: dogMove 1.3s infinite ease-in-out;
+    animation: dogMove 1.0s infinite ease-in-out;
     }
     @keyframes dogMove{
     0%{
@@ -67,7 +67,7 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
 
   /* 개발용 설정 */
-    min-height: 150vh;
+    min-height: 300vh;
 }
 
 h1, h2, h3, h4, h5, h6 {
